@@ -289,7 +289,6 @@ body, html {
     line-height: 1px;
     margin: 0 6px;
 }
-
 .shop s {
     position: absolute;
     right: 0;
@@ -570,7 +569,7 @@ body, html {
 }
 
 .phone:hover {
-    background: #eeeeee;
+    background: #f7f7f7;
 }
 
 /*naver*/
@@ -778,7 +777,6 @@ body, html {
     position: relative;
     z-index: 1;
 }
-
 #list .hot img {
     position: absolute;
     width: 70px;
@@ -796,7 +794,9 @@ body, html {
     left: 46px;
     top: 47px;
 }
-
+.fan p img:hover{
+   transform: scale(1.05);
+}
 .fan .title {
     font-size: 14px;
     font-weight: 400;
@@ -924,13 +924,13 @@ body, html {
     width: 232px;
     float: left;
     margin-bottom: 10px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     position: relative;
 }
  .span-968{
      width: 968px;
      float: right;
-     margin-right: -10px;
+     /*margin-right: -10px;*/
  }
 .grid-items {
     background: #FFF;
@@ -979,6 +979,7 @@ body, html {
     text-overflow: ellipsis;
     white-space: nowrap;
     color: #ca151c;
+    position: relative;
 }
 .grid-items .grid-price em{
     font-style:normal ;
@@ -1000,3 +1001,25 @@ body, html {
  .nav-main .container-padd{
      padding-top: 10px;
  }
+.grid-items:hover{
+    box-shadow: 5px 5px 20px 5px #f0f0f0;
+    top:-2px;
+}
+.c5:hover{
+    box-shadow: 5px 5px 20px 5px #c5c5c5;
+    top:-2px;
+}
+.channel-more a:hover{
+    color: #ca151e;
+}
+.channel-nav a:hover{
+    color: #ca151e;
+}
+#first,#six{
+    margin-left: 0px;
+}
+#five,#ten{
+    margin-right:-5px;
+}
+
+
